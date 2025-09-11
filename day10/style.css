@@ -63,3 +63,49 @@
 .bootstrap:hover{
     background: #563A7D;
 }
+
+.bootstrap2{
+    background: white;
+    color: #5F676D;
+    border-color: #5F676D;
+    padding: 15px;
+    width: 150px;
+    font-size: large;
+    margin: 10px;
+    border-radius: 5px;
+    
+}
+
+.bootstrap2:hover{
+    background: #5F676D;
+    color: white;
+}
+
+.linkdin{
+    background: #1b75d6;
+    font-size: large;
+    color: white;
+    border: #1b75d6;
+    border-radius: 50px;
+    padding: 15px;
+    width: 280px;
+}
+
+.linkdin:hover{
+    background: #1564b8;
+}
+
+.linkdin2{
+    background: white;
+    color: #1b75d6;
+    border: 2px solid #1b75d6;
+    font-size: large;
+    padding: 15px;
+    border-radius: 50px;
+    width: 100px;
+}
+
+.linkdin2:hover{
+    border: 3px solid #1b75d6;
+    background: #b8cee6;
+}
