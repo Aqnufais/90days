@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.red{
+    height: 100px;
+    width: 100px;
+    background: red;
+    margin: 15px;
+}
+
+.circle{
+    height: 100px;
+    width: 100px;
+    background: green;
+    margin: 15px;
+    border-radius: 50%;
+}
+
+.comment-q{
+    font-size: 20px;
+    font-weight:500;
+    margin: 15px;
+    display: inline-block;
+}
+
+.buttons{
+    font-size: 20px;
+    width: 40px;
+}
+
+.inButton{
+    margin: 15px;
+}
+
+.comment{
+    border: 1px solid black;
+    display: inline-block;
+    width: 400px;
+    margin: 10px;
+}
