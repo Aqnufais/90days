@@ -5,19 +5,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        button{
-            padding: 10px;
-            margin: 10px;
-            width: 100px;
-            font-size: 20px;
-        }
-        button:hover {
-  text-decoration: none;
-  background: crimson;
-}
+        
+        
 .container p:first-child {
   background: lightcoral;
   padding: 0.4rem;
+}
+
+    a{
+        font-size: 30px;
+    }
+
+    a:active{
+        color: crimson;
+    }
+
+    .btn{
+        padding: 15px;
+        font-weight: bold;
+    }
+
+    .btn:hover{
+        background: darkgreen;
+        color: #ffffff;
+        cursor: pointer;
+    }
+
+input:focus {
+  outline: 2px solid darkgreen;
+  border-radius: 4px;
+}
+
+.checkbox:checked {
+  appearance: none;
+  width: 12px;
+  height: 12px;
+  background-color: red;
 }
     </style>
 </head>
@@ -29,6 +52,17 @@
   <p>second child</p>
   <p>third child</p>
   <p>last child</p>
+  <hr>
+  <a href="">google</a>
+  <button class="btn">hover me</button>
 </div>
+
+<hr>
+<form action="">
+    <input type="text" name="" id="">
+</form>
+<form>
+  Agree <input class="checkbox" type="checkbox" />
+</form>
 </body>
 </html>
