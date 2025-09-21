@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body{
+            margin-bottom: 1000px;
+        }
+
+
+        th,
+td {
+  border: 1px solid lightgray;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: orangered;
+}
+
+tr:nth-child(odd) {
+  background-color: lightgreen;
+}
+
+.container div:only-child {
+  border: 2px solid crimson;
+  padding: 10px;
+  background-color: lightblue;
+}
+
+section p:first-of-type {
+  background-color: lightgreen;
+}
+
+section p:last-of-type {
+  background-color:lightblue;
+}
+
+p:nth-of-type(4) {
+  color: red;
+  font-weight: bold;
+}
+    </style>
+</head>
+<body>
+    
+    <table>
+  <tr>
+    <th>Item</th>
+    <th>Price</th>
+  </tr>
+  <tr>
+    <td>Apple</td>
+    <td>$1.00</td>
+  </tr>
+  <tr>
+    <td>Banana</td>
+    <td>$0.50</td>
+  </tr>
+  <tr>
+    <td>Orange</td>
+    <td>$0.80</td>
+  </tr>
+</table>
+
+<div class="container">
+  <div>This is the only item in this container.</div>
+</div>
+
+<div class="container">
+  <div>This is one of two items in this container.</div>
+  <div>Here is the second item.</div>
+</div>
+<section>
+  <h2>Introduction</h2>
+  <p>This is the first paragraph in the first section</p>
+  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+  <p>This is the second paragraph in the first section</p>
+</section>
+<section>
+  <h2>Details</h2>
+  <p>This is the first paragraph in the second section.</p>
+  <p>This is the second paragraph in the second section.</p>
+</section>
+<section>
+  <h2>Introduction</h2>
+  <p>This is the first paragraph in the first section</p>
+  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+  <p>This is the second paragraph in the first section</p>
+</section>
+<div class="container">
+  <p>First paragraph</p>
+  <h2>First heading</h2>
+  <p>Second paragraph</p>
+  <p>Third paragraph</p>
+  <h2>Second heading</h2>
+</div>
+</body>
+</html>
