@@ -18,3 +18,4 @@ if( 12 > 13){
 }
 
 a = "meow";
+console.log(typeof a);
