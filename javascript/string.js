@@ -14,4 +14,15 @@ const largest = Math.max(1, 5, 3, 19);
 // console.log(Math.ceil(6.3));
 
 const randomNumBtw1And20 = Math.floor(Math.random() * 20) + 1;
-console.log(randomNumBtw1And20);
+// console.log(randomNumBtw1And20);
+
+// let num = 3.14159;
+// console.log(num.toFixed(3)); 
+
+let num1 = 12.345;
+let num2 = 67.891;
+
+// console.log((num1 + num2).toFixed(2));
+
+let num = 5.678;
+console.log(num.toFixed(1));
